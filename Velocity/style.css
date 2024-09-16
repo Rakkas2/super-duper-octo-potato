@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0px 166px;
+}
+
+.header {
+    background-image: url(img/hero\ image.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-items {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+    transition: color 01s linear;
+}
+
+.nav-items:hover {
+    color: red;
+}
+
+.CART {
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+    position: relative;
+}
+
+.CART img {
+    position: absolute;
+    top: 18px;
+    right: 7px;
+}
+
+.ch {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 01s linear;
+}
+
+.ch:hover {
+    color: red;
+}
+
+.phone-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+
+}
+
+.button {
+    background-color: #FF7400;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: color 01s linear;
+
+}
+
+.button:hover {
+    background-color: rgb(141, 60, 6)
+}
+
+.header-down {
+
+    position: relative;
+}
+
+.header-title {
+    margin-bottom: 12px;
+    position: absolute;
+    left: 175px;
+    color: #D67E35;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 222px;
+
+}
+
+.header-sabtitle {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Open Sans, serif;
+}
+
+.header-sabtitle::after {
+    width: 61px;
+    height: 2px;
+    position: absolute;
+    background-color: #FFFFFF;
+    content: "";
+    top: 128px;
+    left: 60px;
+}
+
+.header-sabtitle::before {
+    width: 61px;
+    height: 2px;
+    position: absolute;
+    background-color: #FFFFFF;
+    content: "";
+    top: 128px;
+    right: 60px;
+}
+
+.header-button {
+    background-color: #FF7400;
+    font-size: 14px;
+    padding: 14px 28px;
+    font-family: Open Sans, serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: color 01s linear;
+}
+
+.header-button:hover {
+    background-color: rgb(141, 60, 6)
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+}
+
+.card-des {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 10px 10px 40px 20px #0000001A;
+
+    width: 33%;
+}
+
+.cards-holder {
+    display: flex;
+    justify-content: space-between;
+}
